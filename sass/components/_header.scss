@@ -1,0 +1,9 @@
+.header {
+  background-color: $background-primary-color;
+  border-bottom: 1px solid $border-header-color;
+}
+
+.header__container {
+  @extend %container;
+  display: flex;
+}

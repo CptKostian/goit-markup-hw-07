@@ -1,0 +1,18 @@
+.whatwedo {
+  @include section(0);
+  background-color: $background-primary-color;
+}
+
+.whatwedo__container {
+  @extend %container;
+}
+
+.whatwedo__title {
+  @extend %section-title;
+}
+
+.whatwedo__list {
+  @extend %remove-useless;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.example {
+  @include section(94px);
+  background-color: $background-primary-color;
+}
+
+.example__container {
+  @extend %container;
+}
+
+.example__list {
+  @extend %remove-useless;
+  display: flex;
+  flex-wrap: wrap;
+}
+

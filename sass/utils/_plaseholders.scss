@@ -1,0 +1,38 @@
+%container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+%remove-useless {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin section($padding-top) {
+  padding-top: $padding-top;
+  padding-bottom: 94px;
+}
+
+%section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $title-text-color;
+
+  margin-bottom: 50px;
+}
+
+%form-input {
+  padding: 12px;
+  padding-left: 40px;
+  width: 100%;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  transition: border 250ms $timing-function;
+}

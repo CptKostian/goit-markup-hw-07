@@ -1,0 +1,31 @@
+.advantages-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.advantages-item__icon {
+  height: 120px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $background-ourteam-color;
+  border-radius: 4px;
+}
+
+.advantages-item__title {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $title-text-color;
+
+  margin-bottom: 10px;
+}
+
+.advantages-item__text {
+  line-height: 1.71;
+
+  margin: 0;
+}
